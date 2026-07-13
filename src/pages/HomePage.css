@@ -1,0 +1,14 @@
+.home-page {
+  padding: 2rem 0;
+}
+
+.home-page h1 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.quiz-grid {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+}
